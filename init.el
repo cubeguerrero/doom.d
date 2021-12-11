@@ -27,7 +27,7 @@
        vertico           ; the search engine of the future
 
        :ui
-       ;;deft              ; notational velocity for Emacs
+       deft              ; notational velocity for Emacs
        doom              ; what makes DOOM look the way it does
        doom-dashboard    ; a nifty splash screen for Emacs
        doom-quit         ; DOOM quit-message prompts when you quit Emacs
@@ -97,7 +97,7 @@
        json              ; At least it ain't XML
        javascript        ; all(hope(abandon(ye(who(enter(here))))))
        markdown          ; writing docs for people to ignore
-       org               ; organize your plain life in plain text
+       (org +roam)       ; organize your plain life in plain text
        python            ; beautiful is better than ugly
        (ruby +rails)     ; 1.step {|i| p "Ruby is #{i.even? ? 'love' : 'life'}"}
        sh                ; she sells {ba,z,fi}sh shells on the C xor

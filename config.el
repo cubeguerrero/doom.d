@@ -32,6 +32,13 @@
 ;; If you use `org' and don't want your org files in the default location below,
 ;; change `org-directory'. It must be set before org loads!
 (setq org-directory "~/Notes/")
+(setq org-roam-directory "~/Notes/roam")
+(setq deft-directory "~/Notes/"
+   deft-recursive t
+   ;; I don't like any summary, hence catch-all regexp. need to see if
+   ;; an option to hide summary is there instead of this one.
+   deft-strip-summary-regexp ".*$"
+)
 
 ;; This determines the style of line numbers in effect. If set to `nil', line
 ;; numbers are disabled. For relative line numbers, set this to `relative'.
